@@ -29,15 +29,12 @@ app.get('/users', async (req, res) => {
               display: flex;
               justify-content: center;
               align-items: center;
-              height: 100vh;
             }
             .container {
-              width: 90%;
-              max-width: 1200px;
+              margin-top: 10px;
               background: #ffffff;
               border-radius: 10px;
               box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-              overflow: hidden;
             }
             table {
               width: 100%;
